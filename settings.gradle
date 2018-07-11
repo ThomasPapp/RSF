@@ -1,0 +1,6 @@
+rootProject.name = 'RuneScape Framework'
+includeFlat '317 deob'
+findProject(':317 deob')?.name = 'client'
+include '../RS/Servers/317 Server'
+findProject(':../RS/Servers/317 Server')?.name = 'server'
+
